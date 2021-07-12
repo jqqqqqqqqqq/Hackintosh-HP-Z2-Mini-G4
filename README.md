@@ -1,5 +1,10 @@
 # HP Z2 Mini G4
 
+# Update 2021/07/12
+
+1. Fixed Thunderbolt device not responding
+2. Update OC config to support macOS 12 beta 2
+
 ## Quick start
 
 1. Generate missing part in platform info
@@ -26,7 +31,8 @@ This configuration is made for HP Z2 Mini G4 Performance Kit and should be compa
 | Thunderbolt\*\* | HP Flex-IO Thunderbolt 3TQ25AA (JHL 6340 Alpine Ridge)       |
 | Audio           | Conexant CX20632                                             |
 | Ethernet        | Intel I219-LM                                                |
-| Wi-Fi\*\*\*     | BCM 94360NG (reassembled MacBook Air BCM94360 by FENVI, has apple bluetooth issues under windows, such as combo headset's mic not working, but everything works out of the box under macOS, including Handoff/Continuity/Unlock with Apple Watch/Instant Hotspot) |
+| Ethernet (Thunderbolt PCI-E)   | [QNAP QNA-T310G1S Thunderbolt 3 to 10GbE Adaptor, Single-Port Thunderbolt 3 to Single-Port 10GbE SFP+](https://www.amazon.com/QNAP-QNA-T310G1S-Thunderbolt-Adaptor-Single-Port/dp/B07KTLP44W)                                            |
+| Wi-Fi\*\*\*     | [BCM 94360NG](https://www.amazon.com/Hackintosh-M-2-NGFF-BCM94360NG-Continuity/dp/B083YXS7VF) (reassembled MacBook Air BCM94360 by FENVI, has apple bluetooth issues under windows, such as combo headset's mic not working, but everything works out of the box under macOS, including Handoff/Continuity/Unlock with Apple Watch/Instant Hotspot) |
 
 \* MXM GPU must be present in order to use top 2 DP ports for performance kit.
 
